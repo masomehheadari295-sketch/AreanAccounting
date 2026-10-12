@@ -1,0 +1,25 @@
+/* print.css — حالت چاپ داخل برنامه: بدون افکت شیشه‌ای، بدون رنگ‌های زمینه، ساده و خوانا */
+:root { --pad: 0px }
+body { background: #fff !important; color: #000 !important; font-size: 12pt }
+.bg-decor, .appbar, .tabbar, .fab, .drawer, .scrim, .toasts, .skip, .no-print, .filters, .rangebar, .chips, .seg, .steps { display: none !important }
+.view { padding: 0 !important }
+.wrap { max-width: none !important; gap: 8pt !important; padding: 0 !important }
+.card { border: 1px solid #999 !important; box-shadow: none !important; background: #fff !important; backdrop-filter: none !important; break-inside: avoid; border-radius: 0 !important; margin-bottom: 8pt }
+.card-head { padding-top: 8pt !important }
+.card-body, .card-hint, .card-head { padding-inline: 10pt !important }
+.card-hint, .muted, .row-sub, .kpi-hint, .field-hint { color: #333 !important }
+.kpi { background: #fff !important; border: 1px solid #999 !important; box-shadow: none !important }
+.kpi-ic, .row-ic, .pill { display: none !important }
+.pill-print, .row-sub .pill { display: inline-flex !important }
+h1, h2, h3, h4, b { color: #000 !important }
+table.tbl { font-size: 10.5pt !important }
+table.tbl th, table.tbl td { border-bottom: 1px solid #ccc !important; padding: 4pt 6pt !important; white-space: normal !important }
+table.tbl thead th { background: #f0f0f0 !important; color: #000 !important; position: static }
+table.tbl tfoot td { background: #f7f7f7 !important }
+.line-total, .line-total.grand { background: #f2f2f2 !important; color: #000 !important; border: 1px solid #999 }
+.chart, .donut { break-inside: avoid }
+.bar-s { fill: #333 !important } .bar-p { fill: #999 !important }
+.row { padding: 6pt 10pt !important; border-bottom: 1px solid #ddd }
+.print-only { display: block !important }
+@page { margin: 14mm 12mm }
+a { text-decoration: none; color: #000 }

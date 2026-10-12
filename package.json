@@ -1,0 +1,19 @@
+{
+  "name": "hesab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "حسابداری ساده و چندارزی برای کسب‌وکار کوچک — اپ موبایل‌وب (PWA) فارسی و راست‌چین",
+  "type": "module",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test test/",
+    "reset": "node scripts/reset.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0"
+  }
+}
